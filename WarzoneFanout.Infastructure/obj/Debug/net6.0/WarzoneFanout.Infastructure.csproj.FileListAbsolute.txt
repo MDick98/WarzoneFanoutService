@@ -1,0 +1,12 @@
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\bin\Debug\net6.0\WarzoneFanout.Infastructure.deps.json
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\bin\Debug\net6.0\WarzoneFanout.Infastructure.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\bin\Debug\net6.0\WarzoneFanout.Infastructure.pdb
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\WarzoneFanout.Infastructure.csproj.AssemblyReference.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\WarzoneFanout.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\WarzoneFanout.Infastructure.AssemblyInfoInputs.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\WarzoneFanout.Infastructure.AssemblyInfo.cs
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\WarzoneFanout.Infastructure.csproj.CoreCompileInputs.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\WarzoneFanout.Infastructure.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\refint\WarzoneFanout.Infastructure.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\WarzoneFanout.Infastructure.pdb
+D:\Source\WarzoneFanout\WarzoneFanout.Infastructure\obj\Debug\net6.0\ref\WarzoneFanout.Infastructure.dll

@@ -1,0 +1,1 @@
+﻿return DatabaseUpgrader.Execute(args);

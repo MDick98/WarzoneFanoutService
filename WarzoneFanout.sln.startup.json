@@ -1,0 +1,14 @@
+{
+    "Version": 3,
+  
+    "ListAllProjects": true,
+
+  "MultiProjectConfigurations": {
+    "All Services": {
+      "Projects": {
+        "WarzoneFanout.Grpc.Server": {},
+        "WarzoneFanout.Api": {}
+      }
+    }
+  }
+}

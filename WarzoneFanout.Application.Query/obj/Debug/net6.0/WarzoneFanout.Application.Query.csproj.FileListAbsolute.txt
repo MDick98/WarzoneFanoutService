@@ -1,0 +1,12 @@
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\bin\Debug\net6.0\WarzoneFanout.Application.Query.deps.json
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\bin\Debug\net6.0\WarzoneFanout.Application.Query.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\bin\Debug\net6.0\WarzoneFanout.Application.Query.pdb
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\WarzoneFanout.Application.Query.csproj.AssemblyReference.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\WarzoneFanout.Application.Query.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\WarzoneFanout.Application.Query.AssemblyInfoInputs.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\WarzoneFanout.Application.Query.AssemblyInfo.cs
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\WarzoneFanout.Application.Query.csproj.CoreCompileInputs.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\WarzoneFanout.Application.Query.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\refint\WarzoneFanout.Application.Query.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\WarzoneFanout.Application.Query.pdb
+D:\Source\WarzoneFanout\WarzoneFanout.Application.Query\obj\Debug\net6.0\ref\WarzoneFanout.Application.Query.dll

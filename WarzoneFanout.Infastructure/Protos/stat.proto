@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "WarzoneFanout.Infastructure";
+
+package greet;
+
+// The greeting service definition.
+service Stats {
+  // Sends a greeting
+  rpc GetStats (StatsRequest) returns (StatsResponse);
+}
+
+enum GameType
+{
+    Multiplayer = 0;
+    BattleRoyal = 1;
+}
+
+// The request message containing the user's name.
+message StatsRequest {
+  string username = 1;
+  GameType gameType = 2;
+}
+
+// The response message containing the greetings.
+message StatsResponse {
+  int32 totalKills = 1;
+  int32 totalDeaths = 2;
+  int32 score = 3;
+  int32 matchesPlayed = 4;
+}

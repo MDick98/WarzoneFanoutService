@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lSL3OyHJtzWvp7hXVUCvFGhi2NdRz7sCXcDdZ4Us5bg=",
+  "Source": "WarzoneFanout.Grpc.Server",
+  "BasePath": "_content/WarzoneFanout.Grpc.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

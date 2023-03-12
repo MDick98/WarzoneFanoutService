@@ -1,0 +1,12 @@
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\bin\Debug\net6.0\WarzoneFanout.Domain.deps.json
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\bin\Debug\net6.0\WarzoneFanout.Domain.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\bin\Debug\net6.0\WarzoneFanout.Domain.pdb
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\WarzoneFanout.Domain.csproj.AssemblyReference.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\WarzoneFanout.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\WarzoneFanout.Domain.AssemblyInfoInputs.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\WarzoneFanout.Domain.AssemblyInfo.cs
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\WarzoneFanout.Domain.csproj.CoreCompileInputs.cache
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\WarzoneFanout.Domain.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\refint\WarzoneFanout.Domain.dll
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\WarzoneFanout.Domain.pdb
+D:\Source\WarzoneFanout\WarzoneFanout.Domain\obj\Debug\net6.0\ref\WarzoneFanout.Domain.dll

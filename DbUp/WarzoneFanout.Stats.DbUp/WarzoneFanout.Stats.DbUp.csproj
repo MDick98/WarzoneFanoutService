@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="appsettings.json" />
+		<None Remove="Scripts\00.00.00.1001.BaselineSchema.sql" />
+		<None Remove="Scripts\00.00.00.1002.Logins.sql" />
+		<None Remove="Scripts\00.00.00.1003.StartData.TestData.sql" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Scripts\00.00.00.1001.BaselineSchema.sql" />
+		<EmbeddedResource Include="Scripts\00.00.00.1002.Logins.sql" />
+		<EmbeddedResource Include="Scripts\00.00.00.1003.StartData.TestData.sql" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WarzoneFanout.Infastructure.DbUp\WarzoneFanout.Infastructure.DbUp.csproj" />
+  </ItemGroup>
+
+</Project>
