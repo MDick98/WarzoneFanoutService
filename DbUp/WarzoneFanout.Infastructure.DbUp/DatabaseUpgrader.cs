@@ -1,15 +1,14 @@
-﻿using CommandLine;
-using WarzoneFanout.Infastructure.DbUp;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using System.Data;
 using Microsoft.Data.SqlClient;
 using DbUp.Engine;
 using DbUp;
 using System.Reflection;
 
+namespace WarzoneFanout.Infastructure.DbUp;
 public static class DatabaseUpgrader
 {
-    public static int Execute(string[] args)
+    public static int Execute()
     {
         var configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
@@ -20,6 +19,11 @@ public static class DatabaseUpgrader
         var builder = new SqlConnectionStringBuilder(connectionString);
 
         var options = configuration.GetRequiredSection("DbUp").Get<DatabaseUpgraderOptions>();
+
+        if (options == null)
+        {
+            return 1;
+        }
 
         options.DatabaseServer = builder["Server"].ToString() ?? throw new InvalidOperationException();
         options.DatabaseName = builder["Database"].ToString() ?? throw new InvalidOperationException();

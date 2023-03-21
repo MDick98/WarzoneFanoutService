@@ -25,7 +25,7 @@ namespace WarzoneFanout.Application.Handlers
                 foreach (var gameType in gameTypes)
                 {
                     var reply = await client.GetStatsAsync(
-                                  new Infastructure.StatsRequest { Username = request.Username, GameType = (Infastructure.GameType)gameType });
+                                  new Infastructure.StatsRequest { Username = request.Username, GameType = (Infastructure.GameType)gameType }, cancellationToken:cancellationToken);
 
                     gameStats.Add(new GameStats
                     {

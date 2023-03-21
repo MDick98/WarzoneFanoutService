@@ -1,1 +1,2 @@
-﻿return DatabaseUpgrader.Execute(args);
+﻿using WarzoneFanout.Infastructure.DbUp;
+return DatabaseUpgrader.Execute();

@@ -1,6 +1,11 @@
+using WarzoneFanout.Application.Query.Queries;
+using WarzoneFanout.Application.Query.QueryHandlers;
+using WarzoneFanout.Application.Query.Results;
 using WarzoneFanout.Grpc.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<IQueryHandler<GetStatsByUsernameQuery, StatsResult>, GetStatsByUsernameQueryHandler>();
 
 builder.Services.AddGrpc();
 

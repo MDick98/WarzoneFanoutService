@@ -1,4 +1,7 @@
 using Grpc.Core;
+using WarzoneFanout.Application.Query.Queries;
+using WarzoneFanout.Application.Query.QueryHandlers;
+using WarzoneFanout.Application.Query.Results;
 using WarzoneFanout.Grpc.Server;
 
 namespace WarzoneFanout.Grpc.Server.Services
@@ -6,33 +9,26 @@ namespace WarzoneFanout.Grpc.Server.Services
     public class StatsService : Stats.StatsBase
     {
         private readonly ILogger<StatsService> _logger;
-        public StatsService(ILogger<StatsService> logger)
+        private readonly IQueryHandler<GetStatsByUsernameQuery, StatsResult> queryHandler;
+        public StatsService(ILogger<StatsService> logger, IQueryHandler<GetStatsByUsernameQuery, StatsResult> queryHandler)
         {
             _logger = logger;
+            this.queryHandler = queryHandler;
         }
 
-        public override Task<StatsResponse> GetStats(StatsRequest request, ServerCallContext context)
+        public override async Task<StatsResponse> GetStats(StatsRequest request, ServerCallContext context)
         {
+            _logger.LogInformation("Retrieving stats for Username: {Username}", request.Username);
 
-            //Add request to repository to retrieve data
-            if (request.GameType == GameType.Multiplayer)
-            {
-                return Task.FromResult(new StatsResponse
-                {
-                    TotalKills = 1000,
-                    TotalDeaths = 800,
-                    Score = 134500,
-                    MatchesPlayed = 270
-                });
-            }
+            var result = await queryHandler.HandleAsync(new GetStatsByUsernameQuery(request.Username, (Domain.GameType)request.GameType), context.CancellationToken).ConfigureAwait(false);
 
-            return Task.FromResult(new StatsResponse
+            return new StatsResponse
             {
-                TotalKills = 100,
-                TotalDeaths = 80,
-                Score = 13450,
-                MatchesPlayed = 27
-            });
+                TotalKills = result.TotalKills,
+                TotalDeaths = result.TotalDeaths,
+                Score = result.Score,
+                MatchesPlayed = result.MatchesPlayed
+            };
         }
     }
 }

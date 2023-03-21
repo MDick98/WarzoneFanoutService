@@ -1,2 +1,0 @@
-obj\Debug\net6.0\Protos/Stat.cs \
-obj\Debug\net6.0\Protos/StatGrpc.cs: Protos/stat.proto
